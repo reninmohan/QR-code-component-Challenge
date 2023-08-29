@@ -1,0 +1,41 @@
+body{
+    background-color: #D5E1EF;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    display: inline-block;
+    margin-top: 10%;
+    padding: 1%;
+    border-radius: 3%;
+}
+img{
+    
+    height: 350px;
+    border-radius: 3%;
+}
+
+footer{
+    margin-top: 8%;
+}
+p{
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 0;
+    
+}
+@media (max-width:680px){
+    .container{
+        padding: 3%;
+    }
+
+}
